@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
-public class Main {
+public class App {
 	public static void main(String[] args) {
 		Carro carro = new Carro();
 		Barco barco = new Barco();

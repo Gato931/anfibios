@@ -4,5 +4,5 @@ public interface Terrestre {
   void avanzar();
   void retroceder();
   void girar();
-  void detenerse();
+  void detener();
 }

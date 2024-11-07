@@ -3,30 +3,26 @@ package co.edu.uniquindio.poo;
 public class App {
 	public static void main(String[] args) {
 		Carro carro = new Carro();
-		Barco barco = new Barco();
-		Avion avion = new Avion();
-		Anfibio anfibio = new Anfibio();
-
-		System.out.println("Pruebas de Carro:");
+		carro.encender();
 		carro.avanzar();
-		carro.retroceder();
-		carro.girar();
-		carro.detenerse();
+		carro.detener();
+		carro.apagar();
 
-		System.out.println("\nPruebas de Barco:");
+		Barco barco = new Barco();
 		barco.encender();
+
 		barco.apagar();
 
-		System.out.println("\nPruebas de Avión:");
+		Avion avion = new Avion();
+		avion.encender();
 		avion.despegar();
 		avion.aterrizar();
+		avion.apagar();
 
-		System.out.println("\nPruebas de Anfibio:");
-		anfibio.avanzar();
-		anfibio.retroceder();
-		anfibio.girar();
-		anfibio.detenerse();
+		Anfibio anfibio = new Anfibio();
 		anfibio.encender();
+		anfibio.avanzar();
+		anfibio.detener();
 		anfibio.apagar();
 	}
 }

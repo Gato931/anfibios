@@ -1,5 +1,6 @@
 package co.edu.uniquindio.poo;
 
-public class Vehiculo {
-  
+public abstract class Vehiculo {
+  public abstract void encender();
+  public abstract void apagar();
 }
